@@ -1,0 +1,28 @@
+.big-button {
+    background-color: $purple;
+    border: 0;
+    border-bottom: .6rem solid darken($purple, 10%);
+    font-weight: bold;
+    color: white;
+    font-size: $l-size;
+    margin-bottom: $m-size;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-button:disabled {
+    opacity: .5;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
+}
